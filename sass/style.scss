@@ -1,0 +1,20 @@
+// VARIABLES 
+
+$main-font: 'Oswald', sans-serif;
+$background-color: rgb(37, 49, 85);
+$text-color: #FFFFFF;
+
+body{
+    background-color: $background-color;
+}
+
+.main-container {
+    
+    
+    h3{
+        color: $text-color;
+        font: $main-font;
+        font-size: 300%;
+        text-align: center;
+    }
+}
