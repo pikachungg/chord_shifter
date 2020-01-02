@@ -1,11 +1,32 @@
+@import url(href= "https://fonts.googleapis.com/css?family=Anton&display=swap");
 body {
-  background-color: #253155;
+  background-color: #161626;
+  font-family: "Anton", sans-serif;
 }
 
 .main-container h3 {
-  color: #FFFFFF;
-  font: "Oswald", sans-serif;
+  margin: 5% 0 4%;
+  color: #f2f2f4;
   font-size: 300%;
   text-align: center;
+}
+
+.main-container .chords {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  height: 10%;
+  font-size: 300%;
+  border-radius: 10px;
+  border: 5px solid #3b3a4a;
+  -webkit-transition: 0.5s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.main-container .chords:focus {
+  border: 3px solid #1EBAD6;
 }
 /*# sourceMappingURL=style.css.map */
